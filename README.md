@@ -10,7 +10,6 @@ A production-ready REST API built with **FastAPI**, featuring user registration,
 - [API Endpoints](#api-endpoints)
 - [Authentication](#authentication)
 - [Key Learnings](#key-learnings)
-- [Next Steps](#next-steps)
 
 ---
 
@@ -56,3 +55,11 @@ This project demonstrates a secure user authentication system with token-based a
    - Returns proper HTTP status codes (`401`, `422`, `500`)
 
 ---
+## Key Learnings
+
+- Building APIs with **FastAPI** and async endpoints
+- User authentication with **JWT** and OAuth2 password flow
+- Password hashing using **bcrypt** with Passlib
+- Database management with **SQLAlchemy ORM**
+- Input validation and error handling using **Pydantic schemas**
+- Dependency management, debugging, and version control with **Git/GitHub**
